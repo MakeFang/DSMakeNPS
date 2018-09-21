@@ -11859,13 +11859,22 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="NPS">NPS<a class="anchor-link" href="#NPS">&#182;</a></h1>
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Wrangling-2016">Wrangling 2016<a class="anchor-link" href="#Wrangling-2016">&#182;</a></h1><ul>
-<li>glob the 2016 week 1-7 files together, with extra columns Location, Week, and Year</li>
-<li>Dropping Ratings that is #REF! or NaN</li>
+<li>Glod datas with extra columns Location, Week, and Year</li>
+<li>Dropp Ratings that is #REF! or NaN</li>
 <li>Merging the two scheduling questions together</li>
 <li>Rename columns</li>
-<li>Casting Pacing as int category</li>
-<li>Make rating integer and then scale by 2 to get range from 0-10</li>
+<li>Casting data to correct category</li>
+<li>Scale rating by 2 to get range from 0-10</li>
 <li>Drop columns I don't care about (Timestamps and stuff)</li>
 </ul>
 
@@ -12042,7 +12051,6 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
 <li>Change pacing into a category variable, with descriptions consistent with 2017</li>
-<li>Making week into int category and track into category</li>
 <li>Rename SG to Singapore and casts location into category</li>
 <li>Make location abbreviations to words to make consistent with 2017</li>
 </ul>
